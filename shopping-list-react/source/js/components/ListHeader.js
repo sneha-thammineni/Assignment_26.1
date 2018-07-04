@@ -2,6 +2,8 @@ var React = require('react');
 
 var ListHeader = React.createClass({
   
+//   handleSubmit method for you to pass to onSubmit
+  
   handleSubmit: function (event) {
     event.preventDefault();
 
